@@ -1,0 +1,42 @@
+{
+  "name": "grunt-peerez-module",
+  "description": "Grunt plugin for peerez/Songbee module generation.",
+  "version": "0.2.2",
+  "homepage": "https://github.com/Songbee/grunt-peerez-module",
+  "author": {
+    "name": "Ale",
+    "email": "ale@incrowd.ws",
+    "url": "http://ale.incrowd.ws"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Songbee/grunt-peerez-module.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Songbee/grunt-peerez-module/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://bee.mit-license.org/"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "^0.9.2",
+    "grunt-contrib-clean": "^0.5.0",
+    "grunt-contrib-nodeunit": "^0.3.3",
+    "grunt": "~0.4.5"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "keywords": [
+    "gruntplugin"
+  ]
+}
