@@ -22,7 +22,7 @@ module.exports = function(grunt) {
     grunt.log.write(JSON.stringify(this.files));
 
     this.files.forEach(function(f) {
-      grunt.log.write(f.src);
+      // grunt.log.write(f.src);
       var manifest = grunt.file.readJSON(f.src);
       var dir = path.dirname(f.src);
       var style = "";
